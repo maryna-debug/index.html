@@ -43,3 +43,18 @@ media (max-aspect-ratio: 16/9){
         height: 100%;
     }
 }
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px; 8%;
+}
+
+.content {
+    text-align: center;
+    margin-top: 15%;
+
+}
+.content h1{
+    font-size: 150px;
+    color: #fff;
+}
