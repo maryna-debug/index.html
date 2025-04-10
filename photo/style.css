@@ -13,7 +13,11 @@ section{
     width: 100%;
     display: table;
 }
-
+.wrap-block {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
 .myVideo {
 height: 100vh;
 width: 100%;
