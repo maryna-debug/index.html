@@ -16,8 +16,26 @@ text-align: center;
 padding: 30px 20px 10px;
 text-shadow: 2px 2px 5px black;
     }
-    .gallery img:hover {
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+    .gallery img {
         transform: scale(1.5);
+        width: 200px;
+        height: auto;
+        margin: 10px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s;
+    }
+    .gallery img:hover {
+        transform: scale(1.05);
     }
    
     .back-link {
