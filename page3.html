@@ -23,16 +23,22 @@
         border-radius: 5px;
         box-shadow: 2px 2px 6px rgba(0,0,0.2);
     }
-    .gallery {
+    div gallery {
         display: flex
         flex-wrap: wrap;
         justify-content: center;
+        align-item: center;
     }
 
-    .gallery img {
-        width: 300px;
-        height: auto;
+    div gallery img {
+        width: 400px;
+        border: 2px solid #ff3d0036;
+        border-radius: 13px
+        box-shadow:4px 7px 7px 0px #00000042;
+        cursor: pointer;
+        height: 300px;
         margin: 10px;
+        transition: 400ms;
     }
     a.button: {
         font-size: 1.2em;
