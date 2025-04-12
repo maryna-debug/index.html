@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go to Album</title>
-    <link rel="stylesheet" href="css/styles.css"
-</head> 
-<body>
-    <h1>HTML</h1>
-    <style>
-      body   {
-            font-family: Arial, sans-serif;
-      background-image: url(photo/with-cloth.jpg); 
-      background-size: cover; 
-      background-position: center;   
-      background-repeat: no-repeat; 
-      height: 100vh;
+  <meta charset="UTF-8">
+  <title>Meet Kiko</title>
+  <style>
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      color: white;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .overlay {
+      position: relative;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      color: white;
-      text-shadow: 1px 1px 3px black;
-
-      background-color: #949bfa;
       text-align: center;
-      padding: 50px;
-     }
-     a {
-        font-size: 20px;
-        padding: 10px 20px;
-        background-color: rgba(225, 105, 180, 0.8);
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-     }
-    a :hover{
-        background-color: rgba(194, 24, 91, 0.9);
+      padding: 20px;
     }
-    </style>
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    .button, .instagram-link {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 6px;
+      background-color: #ff4081;
+      color: white;
+      text-decoration: none;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .button:hover, .instagram-link:hover {
+      background-color: #c2185b;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-    <h1>Ready to see the photos?</h1>
-    <p>Click the link below to see the album:</p>
 
-    <a href="page3.html">Next</a>
+  <!-- Background video -->
+  <video class="video-bg" autoplay muted loop>
+    <source src="photo/110224-688187380.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-    <p><a href="https://www.instagram.com/miste_rkiko?igsh=ZnUwYXJvNXhqZDVu&utm_source=qr">Link to instagram</a> </p> 
+  <!-- Overlay content -->
+  <div class="overlay">
+    <h1>Meet Kiko</h1>
+    <p>
+      Kiko — маленький, але дуже харизматичний песик! Йому 7 років, він любить подорожі, смаколики і завжди знає, коли час для обіймів.
+    </p>
+
+    <a href="page3.html" class="button">See Photo Album</a>
+    <a href="https://www.instagram.com/your_instagram" class="instagram-link" target="_blank">Follow on Instagram</a>
+  </div>
+
 </body>
 </html>
