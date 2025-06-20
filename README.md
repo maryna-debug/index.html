@@ -1,7 +1,7 @@
 Test first website
 # HTML Resume Website
 
-This is a simple resume website created as part of a beginner HTML/CSS task during my IT course at Women IT Academy in 2024.
+This is a simple resume website created as part of a beginner HTML/CSS task during my IT course at Hillel IT school in 2025.
 
 The assignment goal was to:
 - Create a single HTML page
