@@ -1,5 +1,4 @@
 Test first website
-# HTML Resume Website
 
 # HTML Practice Website – Fun Project
 
