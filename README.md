@@ -1,27 +1,21 @@
 Test first website
 # HTML Resume Website
 
-This is a simple resume website created as part of a beginner HTML/CSS task during my IT course at Hillel IT school in 2025.
+# HTML Practice Website – Fun Project
 
-The assignment goal was to:
-- Create a single HTML page
-- Structure it using semantic tags
-- Present personal information clearly (resume format)
+This is a simple HTML/CSS website I created as a training assignment during my IT course.  
+Instead of a typical resume, I made a fun and creative site about my dog.
 
-## ✨ What I added beyond the task:
+The goal was to:
+- Practice HTML/CSS structure
+- Use semantic tags
+- Create a personal site layout
 
-- Improved layout and styling with CSS
-- Section for skills and tools I use
-- Contact information and links
-- Responsive structure for better display
+I also added:
+- My dog’s Instagram 😄
+- Photo and short description
 
-## 💡 Purpose:
-
-This site was created to practice basic frontend development and understand how to build and structure a simple website manually without any framework.
-
-You can view the live page here:  
-🔗 https://maryna-debug.github.io/index.html/
-
+🔗 Live version: https://maryna-debug.github.io/index.html/
 ---
 
 👩‍💻 Created by: Maryna Valentyr  
