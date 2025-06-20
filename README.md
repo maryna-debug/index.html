@@ -25,4 +25,4 @@ You can view the live page here:
 ---
 
 👩‍💻 Created by: Maryna Valentyr  
-🎓 Project from: Women IT Academy (2024)
+🎓 Project from: Hillel IT school (2025)
